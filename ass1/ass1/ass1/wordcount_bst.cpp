@@ -6,6 +6,8 @@
 
 #include <iostream>
 #include <string>
+#include <ctime>
+// #include <cstdlib>
 
 #include "bst.h"
 
@@ -21,6 +23,8 @@ int main() {
 	BST count;
 	// Create the variable string for each work in the file
 	string word;
+	// Create a seed which will keep our randos nice and random
+	srand((int)time(0));
 
 	int linenumber = 0;
 	// While there are words in the file, feed them into our string object

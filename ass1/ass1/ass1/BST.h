@@ -6,6 +6,7 @@
 #include <stack>
 #include <string>
 #include <utility>
+// #include <cstdlib>
 
 // Our typedefs which are required for our iterator class to work properly
 typedef std::string Key; // Took away const, his latest example did not have it
@@ -66,7 +67,7 @@ private:
 	class Node {
 	public:
 		// Ctor, when do we set this to 1? 
-		Node(Key key): key_(key), value_(), left_(nullptr), right_(nullptr) {}
+		Node(Key key) : key_(key), value_(), priority_(rand()), left_(nullptr), right_(nullptr) {}
 
 		const Key& key() { return key_; } // Need help wrapping my mind around these. This is a reference to a Key, it is const, it's called key(), and it returns key_
 		Value& value() { return value_; } // Same here. A reference to a Value called value() and returns value_
@@ -97,6 +98,7 @@ private:
 	private:
 		const Key key_;
 		Value value_;
+		unsigned priority_;
 		Node* left_;
 		Node* right_;
 	};
