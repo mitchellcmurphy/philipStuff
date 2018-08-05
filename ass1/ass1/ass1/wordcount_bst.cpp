@@ -37,11 +37,12 @@ int main() {
 	}
 	// Alert the user that we are about to graph
 	cerr << "=====> walking....";
-
+	count.print();
 	// Graph the values
 	for (auto& item : count) {
 		print_count(item.first, item.second);
 	}
+
 
 	return 0;
 }

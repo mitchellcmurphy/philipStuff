@@ -1,0 +1,3 @@
+{ time ./program.exe; } 2> time.txt
+
+{ time ./bst_wordcount_O0 < 10kwords.txt > 10kwordsout.txt; } 2> time.txt

@@ -6,6 +6,7 @@
 #include <stack>
 #include <string>
 #include <utility>
+#include <iostream>
 // #include <cstdlib>
 
 // Our typedefs which are required for our iterator class to work properly
@@ -25,6 +26,8 @@ public:
 	// BST constructor and root initialized to nullptr.
 	BST() : root_(nullptr) {} 
 
+	void print();
+
 	// Here the professor overloaded the square brackets operator as per the instructions. 
 	Value& operator[](const Key& key) { // Parameter here must be const because there is no reason for anything down the line to change or mess with the key we pass
 		if (!root_) {
@@ -37,6 +40,8 @@ public:
 	// Forward declare - or at least I believe this is us forward declaring - begin and end. 
 	Iterator begin();
 	Iterator end();
+
+	void rebalance();
 
 	// Our custom iterator class
 	class Iterator {
@@ -80,6 +85,7 @@ private:
 			if (key > key_) {
 				if (!right_) {
 					right_ = new Node(key);
+					// rebalance();
 					return right_->value_;
 				}
 				return right_->lookup(key);
@@ -91,19 +97,52 @@ private:
 			return left_->lookup(key);
 		}
 
+		void print(Node* root)
+		{
+			print_helper(root);
+		}
+
+		unsigned priority() { return priority_; }
+
 		// Public accessor for our private left_ and right_. Why though?
 		Node* left() { return left_; }
 		Node* right() { return right_; }
+		void set_right(Node* ptr)
+		{
+			right_ = ptr;
+		}
+		void set_left(Node* ptr)
+		{
+			left_ = ptr;
+		}
 
 	private:
-		const Key key_;
+		void print_helper(Node* ptr)
+		{
+			std::cout << "key: " << ptr->key() << " " << "value: " << ptr->value() << " " << "priority: " << ptr->priority() << std::endl;
+			if (ptr->left_)
+			{
+					print_helper(ptr->left_);
+			}
+			if (ptr->right_)
+			{
+					print_helper(ptr->right_);
+			}
+		}
+
+		
+
+		Key key_;
 		Value value_;
 		unsigned priority_;
 		Node* left_;
 		Node* right_;
 	};
 
+	void rebalance(Node * ptr);
 	Node* root_;
+	Node* rotate_right(Node* ptr);
+	Node* rotate_left(Node* ptr);
 };
 
 #endif
