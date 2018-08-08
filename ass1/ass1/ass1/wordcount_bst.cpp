@@ -26,14 +26,14 @@ int main() {
 	// Create a seed which will keep our randos nice and random
 	srand((int)time(0));
 
-	int linenumber = 0;
+	// int linenumber = 0;
 	// While there are words in the file, feed them into our string object
 	while (cin >> word) {
 		// Analyze the word
 		++count[word];
 		// Log that word is being processed
-		cerr << "*****> " << word << linenumber << endl;
-		linenumber++;
+		cerr << "*****> " << word << endl;
+		// linenumber++;
 	}
 	// Alert the user that we are about to graph
 	cerr << "=====> walking....";

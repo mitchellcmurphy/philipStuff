@@ -24,9 +24,12 @@ public:
 	class Iterator;
 
 	// BST constructor and root initialized to nullptr.
-	BST() : root_(nullptr) {} 
+	BST() : root_(nullptr), valtoreturn(nullptr) {} 
 
 	void print();
+	Value* valtoreturn;
+
+	void set_valtoreturn(Value value);
 
 	// Here the professor overloaded the square brackets operator as per the instructions. 
 	Value& operator[](const Key& key) { // Parameter here must be const because there is no reason for anything down the line to change or mess with the key we pass
@@ -34,14 +37,17 @@ public:
 			root_ = new Node(key);
 			return root_->value(); 
 		}
-		return root_->lookup(key);
+
+		root_ = root_->lookup(root_, key, &valtoreturn);
+		if (valtoreturn)
+		{
+			return *valtoreturn;
+		}
 	}
 
 	// Forward declare - or at least I believe this is us forward declaring - begin and end. 
 	Iterator begin();
 	Iterator end();
-
-	void rebalance();
 
 	// Our custom iterator class
 	class Iterator {
@@ -63,6 +69,7 @@ public:
 
 		// Setting aside a pointer for a 'current' node
 		Node* current_;
+		// Tree insert method
 		// Stack of node pointers called stack_
 		std::stack<Node*> stack_;
 	};
@@ -77,24 +84,74 @@ private:
 		const Key& key() { return key_; } // Need help wrapping my mind around these. This is a reference to a Key, it is const, it's called key(), and it returns key_
 		Value& value() { return value_; } // Same here. A reference to a Value called value() and returns value_
 
-		// Look up a value (word count) based on a key (word), return a reference to the wordcount if the word is found, if it is not found, we add
-		Value& lookup(const Key& key) { // Takes const ref
-			if (key == key_) {
-				return value_;
+		// We look up our desired key in the tree, if it is found, we return a reference to its value
+		Node* lookup(Node* ptr, const Key& key, Value** valtoreturn) { // Takes const ref
+			if (ptr->key_ == key) {
+				*valtoreturn = &(ptr->value());
 			}
-			if (key > key_) {
-				if (!right_) {
-					right_ = new Node(key);
-					// rebalance();
-					return right_->value_;
+			if (key < ptr->key_) {
+				if (!ptr->left_)
+				{
+					ptr->left_ = new Node(key);
+					*valtoreturn = &(ptr->left_->value());
 				}
-				return right_->lookup(key);
+				else
+				{
+					ptr->left_ = lookup(ptr->left_, key, valtoreturn);
+				}
+				return rebalance(ptr, valtoreturn);
 			}
-			if (!left_) {
-				left_ = new Node(key);
-				return left_->value_;
+
+			else
+			{
+				if (!ptr->right_) {
+					ptr->right_ = new Node(key);
+					*valtoreturn = &(ptr->right_->value());
+				}
+				else 
+				{
+					ptr->right_ = lookup(ptr->right_, key, valtoreturn);
+				}
+				return rebalance(ptr, valtoreturn);
 			}
-			return left_->lookup(key);
+		}
+
+		
+		Node* rebalance(Node* ptr, Value** valtoreturn)
+		{
+			if (ptr->left_)
+			{
+				if (ptr->left_->priority() > ptr->priority())
+				{
+					// right rotate
+					auto x = std::move(ptr->left_);
+					ptr->left_ = std::move(x->right_);
+					x->right_ = std::move(ptr);
+					ptr = std::move(x);
+
+					// Return new root
+					return ptr;
+				}
+			}
+			if (ptr->right_)
+			{
+				if (ptr->right_->priority() > ptr->priority())
+				{
+					auto x = std::move(ptr->right_);
+					ptr->right_ = std::move(x->left_);
+					x->left_ = std::move(ptr);
+					ptr = std::move(x);
+
+					return ptr;
+				}
+			}
+			return ptr;
+		}
+		
+
+		void test()
+		{
+			std::cout << key_ << " " << key() << std::endl;
 		}
 
 		void print(Node* root)
@@ -102,11 +159,13 @@ private:
 			print_helper(root);
 		}
 
+
 		unsigned priority() { return priority_; }
 
 		// Public accessor for our private left_ and right_. Why though?
 		Node* left() { return left_; }
 		Node* right() { return right_; }
+
 		void set_right(Node* ptr)
 		{
 			right_ = ptr;
@@ -139,10 +198,7 @@ private:
 		Node* right_;
 	};
 
-	void rebalance(Node * ptr);
 	Node* root_;
-	Node* rotate_right(Node* ptr);
-	Node* rotate_left(Node* ptr);
 };
 
 #endif

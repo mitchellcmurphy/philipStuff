@@ -1,5 +1,0 @@
-GFH
-ABC
-NOP
-JKL
-ZFY
