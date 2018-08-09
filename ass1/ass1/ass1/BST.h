@@ -30,6 +30,7 @@ public:
 	Value* valtoreturn;
 
 	void set_valtoreturn(Value value);
+	void verify();
 
 	// Here the professor overloaded the square brackets operator as per the instructions. 
 	Value& operator[](const Key& key) { // Parameter here must be const because there is no reason for anything down the line to change or mess with the key we pass
@@ -198,6 +199,7 @@ private:
 		Node* right_;
 	};
 
+	void verify(Node* root);
 	Node* root_;
 };
 

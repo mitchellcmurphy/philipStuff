@@ -49,6 +49,34 @@ BST::Iterator::Iterator(BST::Node* root) {
 	stack_.pop();
 }
 
+void BST::verify()
+{
+	cerr << "verifying now... if no error messages, everything is all good" << endl;
+	if (root_)
+		verify(root_);
+	else
+		cerr << "nothing in tree" << endl;
+}
+
+void BST::verify(Node* ptr)
+{
+	if (ptr->left())
+	{
+		if (ptr->left()->key() > ptr->key())
+			cerr << "Uh oh, left child key is larger" << endl;
+		if (ptr->left()->priority() > ptr->priority())
+			cerr << "Uh oh, child priority is greater than parent" << endl;
+		verify(ptr->left());
+	}
+	if (ptr->right())
+	{
+		if (ptr->right()->key() < ptr->key())
+			cerr << "Uh oh, right child key is smaller" << endl;
+		if (ptr->right()->priority() > ptr->priority())
+			cerr << "Uh oh, child priority is greater than parent" << endl;
+		verify(ptr->right());
+	}
+}
 
 bool BST::Iterator::operator!=(const BST::Iterator& other) {
 	return !(*this == other);
