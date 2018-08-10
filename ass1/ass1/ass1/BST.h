@@ -7,13 +7,10 @@
 #include <string>
 #include <utility>
 #include <iostream>
-// #include <cstdlib>
 
 // Our typedefs which are required for our iterator class to work properly
-typedef std::string Key; // Took away const, his latest example did not have it
+typedef std::string Key;
 typedef int Value;
-// Unsure about the following
-// Question for Classmates. What is the purpose of this *Visit
 
 class BST {
 	// Forward declaring node class
@@ -23,41 +20,48 @@ public:
 	// Forward declaring iterator class
 	class Iterator;
 
-	// BST constructor and root initialized to nullptr.
+	// BST constructor. Root and valtoreturn initialized to nullptr.
 	BST() : root_(nullptr), valtoreturn(nullptr) {} 
 
 	void print();
+	// During looking up, inserting, and rebalancing we save the reference of the value we must return into valtoreturn
 	Value* valtoreturn;
 
-	void set_valtoreturn(Value value);
+#ifdef TREAP
 	void verify();
+#endif
 
-	// Here the professor overloaded the square brackets operator as per the instructions. 
-	Value& operator[](const Key& key) { // Parameter here must be const because there is no reason for anything down the line to change or mess with the key we pass
+	// Return a reference to a value for a given key, inserting if needed 
+	Value& operator[](const Key& key) {
+		// If the tree is empty as it stands, create our root and return its value
 		if (!root_) {
 			root_ = new Node(key);
 			return root_->value(); 
 		}
-
-		root_ = root_->lookup(root_, key, &valtoreturn);
+#ifndef TREAP
+		// Lookup our given key, inserting if needed
+		return root_->lookup(key);
+#endif
+#ifdef TREAP
+		// Lookup our given key, inserting if needed, rebalancing on the way back, updating our root (incase the rebalance does change the root)
+		root_ = root_->lookup(root_, key, &valtoreturn); // We pass valtoreturn which we will be updated with the reference of the value we will return
+														 // We either find our given key, or it is created. Either way valtoreturn is updated and we return it
 		if (valtoreturn)
 		{
 			return *valtoreturn;
 		}
+#endif	
 	}
 
-	// Forward declare - or at least I believe this is us forward declaring - begin and end. 
+	// Forward declare begin and end iterators. 
 	Iterator begin();
 	Iterator end();
 
 	// Our custom iterator class
 	class Iterator {
 	public:
-		// Constructor takes a pointer to the root node
 		Iterator(Node* root);
 
-		// Overloading the == and =! operator
-		// Parameters are a const reference to an iterator
 		bool operator==(const Iterator& other);
 		bool operator!=(const Iterator& other);
 
@@ -70,8 +74,7 @@ public:
 
 		// Setting aside a pointer for a 'current' node
 		Node* current_;
-		// Tree insert method
-		// Stack of node pointers called stack_
+		bool firstword_; // Bool used to track if we are on the first word of the tree and fix our right-nodes-all-the-way-down bug
 		std::stack<Node*> stack_;
 	};
 
@@ -79,17 +82,54 @@ private:
 	// Our node class which is contained in the private section of the BST class
 	class Node {
 	public:
-		// Ctor, when do we set this to 1? 
+#ifndef TREAP
+		Node(Key key) : key_(key), value_(), left_(nullptr), right_(nullptr) {}
+#endif
+
+#ifdef TREAP
+		// Construct a node and set its priority to a random number
 		Node(Key key) : key_(key), value_(), priority_(rand()), left_(nullptr), right_(nullptr) {}
+#endif
 
-		const Key& key() { return key_; } // Need help wrapping my mind around these. This is a reference to a Key, it is const, it's called key(), and it returns key_
-		Value& value() { return value_; } // Same here. A reference to a Value called value() and returns value_
+		const Key& key() { return key_; }
+		Value& value() { return value_; }
 
-		// We look up our desired key in the tree, if it is found, we return a reference to its value
+#ifndef TREAP
+		// Recursive function for looking up the value of a key
+		Value& lookup(const Key& key) {
+			// If the key matches the key of the current node, return the value
+			if (key == key_) {
+				return value_;
+			}
+			// If the key is lexicographically less than the current node's key
+			if (key < key_) {
+				// If there is no left node, create it, and return the default value
+				if (!left_) {
+					left_ = new Node(key);
+					return left_->value_;
+				}
+				// Else move the node to the left and return
+				return left_->lookup(key);
+			}
+			// If the key is NOT lexicographically less than the current node's key
+			// If there is no right node, create it and return the default value
+			if (!right_) {
+				right_ = new Node(key);
+				return right_->value_;
+			}
+			// Else move the node to the right and return
+			return right_->lookup(key);
+			}
+#endif
+
+		// Our treap lookup/insert and rebalance functions
+#ifdef TREAP
+		// We look up our desired key in the tree, if it is found, we return a reference to its value. If not, we insert. Rebalance on the way back up
 		Node* lookup(Node* ptr, const Key& key, Value** valtoreturn) { // Takes const ref
 			if (ptr->key_ == key) {
-				*valtoreturn = &(ptr->value());
+				*valtoreturn = &(ptr->value()); // If the key is found, we set valtoreturn to the value associated with that key
 			}
+			// We recurse left and we recurse right. Inserting and updating valtoreturn if needed
 			if (key < ptr->key_) {
 				if (!ptr->left_)
 				{
@@ -100,7 +140,7 @@ private:
 				{
 					ptr->left_ = lookup(ptr->left_, key, valtoreturn);
 				}
-				return rebalance(ptr, valtoreturn);
+				return rebalance(ptr, valtoreturn); // We rebalance on the way back from recursion
 			}
 
 			else
@@ -109,7 +149,7 @@ private:
 					ptr->right_ = new Node(key);
 					*valtoreturn = &(ptr->right_->value());
 				}
-				else 
+				else
 				{
 					ptr->right_ = lookup(ptr->right_, key, valtoreturn);
 				}
@@ -148,22 +188,17 @@ private:
 			}
 			return ptr;
 		}
-		
-
-		void test()
-		{
-			std::cout << key_ << " " << key() << std::endl;
-		}
+#endif	
 
 		void print(Node* root)
 		{
 			print_helper(root);
 		}
 
-
+#ifdef TREAP
 		unsigned priority() { return priority_; }
+#endif
 
-		// Public accessor for our private left_ and right_. Why though?
 		Node* left() { return left_; }
 		Node* right() { return right_; }
 
@@ -179,7 +214,13 @@ private:
 	private:
 		void print_helper(Node* ptr)
 		{
+#ifndef TREAP
+			std::cout << "key: " << ptr->key() << " " << "value: " << ptr->value() << std::endl;
+#endif
+
+#ifdef TREAP
 			std::cout << "key: " << ptr->key() << " " << "value: " << ptr->value() << " " << "priority: " << ptr->priority() << std::endl;
+#endif
 			if (ptr->left_)
 			{
 					print_helper(ptr->left_);
@@ -190,16 +231,18 @@ private:
 			}
 		}
 
-		
-
 		Key key_;
 		Value value_;
+#ifdef TREAP
 		unsigned priority_;
+#endif
 		Node* left_;
 		Node* right_;
 	};
 
+#ifdef TREAP
 	void verify(Node* root);
+#endif
 	Node* root_;
 };
 
