@@ -29,7 +29,8 @@ BST::Iterator::Iterator(BST::Node* root) {
 	}
 	leftmost(root);
 	current_ = stack_.top();
-	stack_.pop();
+	firstword_ = true;
+	// stack_.pop();
 }
 
 
@@ -43,7 +44,17 @@ BST::Iterator& BST::Iterator::operator++() {
 		current_ = nullptr;
 		return *this;
 	}
-	current_ = stack_.top();
+	if (firstword_ == true)
+	{
+		stack_.pop();
+		leftmost(current_->right());
+		current_ = stack_.top();
+		firstword_ = false;
+	}
+	else
+	{
+		current_ = stack_.top();
+	}
 	stack_.pop();
 	leftmost(current_->right());
 	return *this;

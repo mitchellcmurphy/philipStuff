@@ -57,6 +57,7 @@ public:
 
 		// Setting aside a pointer for a 'current' node
 		Node* current_;
+		bool firstword_;
 		// Stack of node pointers called stack_
 		std::stack<Node*> stack_;
 	};
