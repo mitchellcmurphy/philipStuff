@@ -23,3 +23,27 @@ g++ --std=c++14 -O2 -Wall -Werror -pedantic -D TREAP -o treap_O2.out BST.cpp wor
 
 echo "build treap level 3 optimized"
 g++ --std=c++14 -O3 -Wall -Werror -pedantic -D TREAP -o treap_O3.out BST.cpp wordcount_bst.cpp
+
+echo “create 10k word document”
+python generatewords.py 10000 8 > 10kwords.txt
+
+echo “create 10k word document sorted”
+sort 10kwords.txt > 10kwordssorted.txt
+
+echo “create 25k word document”
+python generatewords.py 25000 8 > 25kwords.txt
+
+echo “create 25k word document sorted”
+sort 25kwords.txt > 25kwordssorted.txt
+
+echo “create 50k word document”
+python generatewords.py 50000 8 > 50kwords.txt
+
+echo “create 50k word document sorted”
+sort 50kwords.txt > 50kwordssorted.txt
+
+echo “create 90k word document”
+python generatewords.py 90000 8 > 90kwords.txt
+
+echo “create 90k word document sorted”
+sort 90kwords.txt > 90kwordssorted.txt
