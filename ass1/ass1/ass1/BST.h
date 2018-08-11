@@ -21,7 +21,7 @@ public:
 	class Iterator;
 
 	// BST constructor. Root and valtoreturn initialized to nullptr.
-	BST() : root_(nullptr), valtoreturn(nullptr) {} 
+	BST() : valtoreturn(nullptr), root_(nullptr) {} 
 
 	void print();
 	// During looking up, inserting, and rebalancing we save the reference of the value we must return into valtoreturn
@@ -45,11 +45,7 @@ public:
 #ifdef TREAP
 		// Lookup our given key, inserting if needed, rebalancing on the way back, updating our root (incase the rebalance does change the root)
 		root_ = root_->lookup(root_, key, &valtoreturn); // We pass valtoreturn which we will be updated with the reference of the value we will return
-														 // We either find our given key, or it is created. Either way valtoreturn is updated and we return it
-		if (valtoreturn)
-		{
-			return *valtoreturn;
-		}
+		return *valtoreturn; // We either find our given key, or it is created. Either way valtoreturn is updated and we return it
 #endif	
 	}
 
