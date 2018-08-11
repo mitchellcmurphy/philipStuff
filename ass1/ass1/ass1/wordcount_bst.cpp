@@ -7,7 +7,6 @@
 #include <iostream>
 #include <string>
 #include <ctime>
-// #include <cstdlib>
 
 #include "bst.h"
 
@@ -26,20 +25,22 @@ int main() {
 	// Create a seed which will keep our randos nice and random
 	srand((int)time(0));
 
-	// int linenumber = 0;
 	// While there are words in the file, feed them into our string object
 	while (cin >> word) {
-		// Analyze the word
+		// Run the magic
 		++count[word];
 		// Log that word is being processed
 		cerr << "*****> " << word << endl;
-		// linenumber++;
 	}
 	// Alert the user that we are about to graph
 	cerr << "=====> walking....";
+	
 	count.print();
+#ifdef TREAP
+	// Verify function that verifies the tree has heap property
 	count.verify();
-	// Graph the values
+#endif
+	// Print the values to our out file
 	for (auto& item : count) {
 		print_count(item.first, item.second);
 	}
