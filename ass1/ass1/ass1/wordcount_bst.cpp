@@ -34,8 +34,7 @@ int main() {
 	}
 	// Alert the user that we are about to graph
 	cerr << "=====> walking....";
-	
-	count.print();
+
 #ifdef TREAP
 	// Verify function that verifies the tree has heap property
 	count.verify();
