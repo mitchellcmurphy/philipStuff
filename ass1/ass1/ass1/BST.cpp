@@ -96,6 +96,7 @@ BST::Iterator& BST::Iterator::operator++() {
 		current_ = stack_.top();
 		firstword_ = false;
 	}
+
 	else // If this is not the first word, proceed as normal
 	{
 		current_ = stack_.top(); // Proceed as normal
