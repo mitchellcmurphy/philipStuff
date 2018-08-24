@@ -1,0 +1,21 @@
+instead of a text document with 10 words try to make a test document that tests 8 cases:
+
+if all words are the same
+if there are some duplicates
+if the words are in sorted order
+if the words are in reverse sorted order
+if some of the words are different length
+if there are spaces in between the words and not line breaks
+if there are numbers along with the words
+if there are special characters along with the words
+
+include expected output
+
+Instead of 10k, 25k, 50k, 90k
+Do 1k, 10k, 20k, 30k, 40k, 50k, 60k, 70k, 80k, 90k
+
+Remove anything that has to do with O1 and O2. only keep O0 and O3
+
+Submit pre-made images, and the script to generate them (if you did a script).
+
+You decide what should go into your BUILD, RUN, and README files.  You're trying to automate the tasks of building and running your programs as much as possible.

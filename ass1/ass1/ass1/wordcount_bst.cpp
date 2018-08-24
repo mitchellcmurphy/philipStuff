@@ -44,6 +44,5 @@ int main() {
 		print_count(item.first, item.second);
 	}
 
-
 	return 0;
 }

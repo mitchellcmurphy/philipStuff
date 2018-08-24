@@ -3,7 +3,7 @@
 The code is compiled with the following command: (Currently only Linux is supported.)
 
 ```
-./BUILDD.sh
+./BUILD.sh
 ```
 
 # How to run the solution

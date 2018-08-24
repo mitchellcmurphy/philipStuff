@@ -16,12 +16,12 @@ class BST {
 	// Forward declaring node class
 	class Node;
 
-public:	
+public:
 	// Forward declaring iterator class
 	class Iterator;
 
 	// BST constructor. Root and valtoreturn initialized to nullptr.
-	BST() : valtoreturn(nullptr), root_(nullptr) {} 
+	BST() : valtoreturn(nullptr), root_(nullptr) {}
 
 	void print();
 	// During looking up, inserting, and rebalancing we save the reference of the value we must return into valtoreturn
@@ -36,7 +36,7 @@ public:
 		// If the tree is empty as it stands, create our root and return its value
 		if (!root_) {
 			root_ = new Node(key);
-			return root_->value(); 
+			return root_->value();
 		}
 #ifndef TREAP
 		// Lookup our given key, inserting if needed
@@ -115,7 +115,7 @@ private:
 			}
 			// Else move the node to the right and return
 			return right_->lookup(key);
-			}
+		}
 #endif
 
 		// Our treap lookup/insert and rebalance functions
@@ -153,7 +153,7 @@ private:
 			}
 		}
 
-		
+
 		Node* rebalance(Node* ptr, Value** valtoreturn)
 		{
 			if (ptr->left_)
@@ -219,11 +219,11 @@ private:
 #endif
 			if (ptr->left_)
 			{
-					print_helper(ptr->left_);
+				print_helper(ptr->left_);
 			}
 			if (ptr->right_)
 			{
-					print_helper(ptr->right_);
+				print_helper(ptr->right_);
 			}
 		}
 
