@@ -91,17 +91,21 @@ BST::Iterator& BST::Iterator::operator++() {
 	// to get it ready for the rest of the range-based for loop. Set firstword_ back to false
 	if (firstword_ == true)
 	{
-		stack_.pop();
+		if (!stack_.empty())
+			stack_.pop();
 		leftmost(current_->right());
-		current_ = stack_.top();
+		if (!stack_.empty())
+			current_ = stack_.top();
 		firstword_ = false;
 	}
 
 	else // If this is not the first word, proceed as normal
 	{
-		current_ = stack_.top(); // Proceed as normal
+		if (!stack_.empty())
+			current_ = stack_.top(); // Proceed as normal
 	}
-	stack_.pop();
+	if (!stack_.empty())
+		stack_.pop();
 	leftmost(current_->right());
 	return *this;
 }
