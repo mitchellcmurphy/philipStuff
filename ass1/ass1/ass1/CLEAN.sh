@@ -1,7 +1,10 @@
 #! /bin/bash
 
 rm *.txt
-rm *.stderr
 rm *.out
-rm *.dat
-rm *.png
+
+if [ "$1" != "some" ]; then
+  rm -r time
+  rm -r output
+  rm -r stderr
+fi
