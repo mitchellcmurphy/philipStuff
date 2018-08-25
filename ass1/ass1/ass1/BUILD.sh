@@ -23,6 +23,12 @@ sort 80kwords.txt > 80kwordssorted.txt
 python generatewords.py 90000 8 > 90kwords.txt
 sort 90kwords.txt > 90kwordssorted.txt
 
+mkdir ./output/bst
+mkdir ./output/treap
+mkdir ./stderr/bst
+mkdir ./stderr/treap
+mkdir ./time/
+
 echo "build bst level 0 optimized"
 g++ --std=c++14 -O0 -Wall -Werror -pedantic -o bst_O0.out BST.cpp wordcount_bst.cpp
 
