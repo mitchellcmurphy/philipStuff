@@ -29,6 +29,10 @@ mkdir ./output/bst
 mkdir ./output/treap
 mkdir ./stderr/bst
 mkdir ./stderr/treap
+mkdir ./output/bst/presorted
+mkdir ./output/treap/presorted
+mkdir ./stderr/bst/presorted
+mkdir ./stderr/treap/presorted
 mkdir time
 
 echo "build bst level 0 optimized"
