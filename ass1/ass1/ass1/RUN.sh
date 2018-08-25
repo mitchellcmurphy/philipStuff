@@ -528,6 +528,8 @@ echo “treap O3 optimization sorted 90k words”
 { time ./treap_O3.out < 90kwordssorted.txt > O3_treap90ksortedout.txt 2> treap_O3.stderr ; } 2>> treap_time_O3.dat
 echo -e '\n' >> treap_time_O3.dat
 mv O0_01k.txt /output/treap/presorted
+
+
 mv O0_01k.txt /time/treap
 
 
