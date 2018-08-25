@@ -273,25 +273,25 @@ mv O3_90k.stderr ./stderr/bst/presorted
 # 1k words
 
 echo “treap O0 optimization unsorted 1k words”
-{ time ./treap_O0.out < 1kwords.txt > O0_1k.txt 2> O0_01k.stderr ; } 2> treap_time_O0.dat
+{ time ./treap_O0.out < 1kwords.txt > O0_01k.txt 2> O0_01k.stderr ; } 2> treap_time_O0.dat
 echo -e '\n' >> treap_time_O0.dat
 mv O0_01k.txt ./output/treap
 mv O0_01k.stderr ./stderr/treap
 
 echo “treap O3 optimization unsorted 1k words”
-{ time ./treap_O3.out < 1kwords.txt > O3_1k.txt 2> O3_01k.stderr ; } 2> treap_time_O3.dat
+{ time ./treap_O3.out < 1kwords.txt > O3_01k.txt 2> O3_01k.stderr ; } 2> treap_time_O3.dat
 echo -e '\n' >> treap_time_O3.dat
 mv O3_01k.txt ./output/treap
 mv O3_01k.stderr ./stderr/treap
 
 echo “treap O0 optimization sorted 1k words”
-{ time ./treap_O0.out < 1kwordssorted.txt > O0_1k.txt 2> O0_01k.stderr ; } 2>> treap_time_O0.dat
+{ time ./treap_O0.out < 1kwordssorted.txt > O0_01k.txt 2> O0_01k.stderr ; } 2>> treap_time_O0.dat
 echo -e '\n' >> treap_time_O0.dat
 mv O0_01k.txt ./output/treap/presorted
 mv O0_01k.stderr ./stderr/treap/presorted
 
 echo “treap O3 optimization sorted 1k words”
-{ time ./treap_O3.out < 1kwordssorted.txt > O3_1k.txt 2> O3_01k.stderr ; } 2>> treap_time_O3.dat
+{ time ./treap_O3.out < 1kwordssorted.txt > O3_01k.txt 2> O3_01k.stderr ; } 2>> treap_time_O3.dat
 echo -e '\n' >> treap_time_O3.dat
 mv O3_01k.txt ./output/treap/presorted
 mv O3_01k.stderr ./stderr/treap/presorted
@@ -535,7 +535,7 @@ mv bst_time_O3.dat ./time/
 mv treap_time_O0.dat ./time/
 mv treap_time_O3.dat ./time/
 
-
+./CLEAN.sh
 
 #vim -c "argdo :22d | x" bst_time_O0.dat bst_time_O3.dat
 #vim -c "argdo source timeprep.vim" bst_time_O0.dat #bst_time_O3.dat #treap_time_O0.dat #treap_time_O3.dat
