@@ -1,3 +1,0 @@
-0. bits and bytes
-
-1. text document that contains "Philip" get it so i can handle 1s and 0s of it. 
