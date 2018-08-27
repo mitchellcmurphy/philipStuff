@@ -1,0 +1,101 @@
+1k words: 
+0.043 seconds
+
+
+1k words: 
+0.049 seconds
+
+
+10k words: 
+0.229 seconds
+
+
+1k words: 
+1.682 seconds
+
+
+1k words: 
+0.601 seconds
+
+
+1k words: 
+7.168 seconds
+
+
+1k words: 
+0.794 seconds
+
+
+1k words: 
+15.467 seconds
+
+
+1k words: 
+1.089 seconds
+
+
+1k words: 
+34.650 seconds
+
+
+1k words: 
+1.624 seconds
+
+
+1k words: 
+48.441 seconds
+
+
+1k words: 
+2.355 seconds
+
+
+1k words: 
+77.846 seconds
+
+
+1k words: 
+4.523 seconds
+
+
+1k words: 
+193.193 seconds
+
+
+1k words: 
+2.202 seconds
+
+
+1k words: 
+123.016 seconds
+
+
+1k words: 
+2.360 seconds
+
+
+1k words: 
+./RUN.sh: line 297:   801 Segmentation fault      (core dumped) ./bst_O0.out < 90kwordssorted.txt > O0_90k.txt 2> O0_90k.stderr
+138.845 seconds
+
+
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 

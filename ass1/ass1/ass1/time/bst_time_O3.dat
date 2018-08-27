@@ -1,0 +1,104 @@
+1k words: 
+0.044 seconds
+
+
+1k words: 
+0.042 seconds
+
+
+10k words: 
+0.228 seconds
+
+
+1k words: 
+0.933 seconds
+
+
+1k words: 
+0.565 seconds
+
+
+1k words: 
+3.842 seconds
+
+
+1k words: 
+0.786 seconds
+
+
+1k words: 
+9.869 seconds
+
+
+1k words: 
+0.919 seconds
+
+
+1k words: 
+22.039 seconds
+
+
+1k words: 
+1.260 seconds
+
+
+1k words: 
+36.615 seconds
+
+
+1k words: 
+2.286 seconds
+
+
+1k words: 
+./RUN.sh: line 214:   768 Segmentation fault      (core dumped) ./bst_O3.out < 60kwordssorted.txt > O3_60k.txt 2> O3_60k.stderr
+74.418 seconds
+
+
+1k words: 
+4.268 seconds
+
+
+1k words: 
+./RUN.sh: line 244:   780 Segmentation fault      (core dumped) ./bst_O3.out < 70kwordssorted.txt > O3_70k.txt 2> O3_70k.stderr
+42.879 seconds
+
+
+1k words: 
+2.458 seconds
+
+
+1k words: 
+./RUN.sh: line 274:   792 Segmentation fault      (core dumped) ./bst_O3.out < 80kwordssorted.txt > O3_80k.txt 2> O3_80k.stderr
+39.289 seconds
+
+
+1k words: 
+2.274 seconds
+
+
+1k words: 
+./RUN.sh: line 304:   804 Segmentation fault      (core dumped) ./bst_O3.out < 90kwordssorted.txt > O3_90k.txt 2> O3_90k.stderr
+37.598 seconds
+
+
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
+1k words: 
