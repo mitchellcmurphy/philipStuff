@@ -1,0 +1,1132 @@
+desc: (none)
+cmd: ./bst_O3.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=460711604
+mem_heap_B=336336
+mem_heap_extra_B=47856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=743032233
+mem_heap_B=408584
+mem_heap_extra_B=60992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=1156719627
+mem_heap_B=492712
+mem_heap_extra_B=76288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=1570899063
+mem_heap_B=562760
+mem_heap_extra_B=89024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=1772472560
+mem_heap_B=593472
+mem_heap_extra_B=94608
+mem_stacks_B=0
+heap_tree=detailed
+n3: 593472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 519728 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 519640 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 519552 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 519464 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 519376 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 519288 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 519200 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 519112 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 519024 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 518936 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 518848 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 518760 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 518672 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 518584 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 518496 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 518408 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 518320 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 518232 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 518144 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 518056 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 517968 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 517880 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 517792 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 517704 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 517616 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 517528 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 517440 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 517352 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 517264 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 517176 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=2113562944
+mem_heap_B=641696
+mem_heap_extra_B=103376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2496678017
+mem_heap_B=691416
+mem_heap_extra_B=112416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2778259199
+mem_heap_B=725560
+mem_heap_extra_B=118624
+mem_stacks_B=0
+heap_tree=detailed
+n3: 725560 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 651816 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 651728 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 651640 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 651552 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 651464 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 651376 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 651288 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 651200 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 651112 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 651024 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 650936 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 650848 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 650760 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 650672 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 650584 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 650496 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 650408 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 650320 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 650232 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 650144 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 650056 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 649968 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 649880 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 649792 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 649704 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 649616 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 649528 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 649440 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 649352 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 649264 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=3165710580
+mem_heap_B=769824
+mem_heap_extra_B=126672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=3463535358
+mem_heap_B=802032
+mem_heap_extra_B=132528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=3791276829
+mem_heap_B=835912
+mem_heap_extra_B=138688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=4268548635
+mem_heap_B=882728
+mem_heap_extra_B=147200
+mem_stacks_B=0
+heap_tree=detailed
+n3: 882728 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 808984 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 808896 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 808808 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 808720 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 808632 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 808544 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 808456 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 808368 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 808280 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 808192 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 808104 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 808016 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 807928 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 807840 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 807752 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 807664 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 807576 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 807488 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 807400 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 807312 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 807224 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 807136 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 807048 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 806960 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 806872 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 806784 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 806696 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 806608 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 806520 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 806432 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=4475134824
+mem_heap_B=902176
+mem_heap_extra_B=150736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=4805438491
+mem_heap_B=932360
+mem_heap_extra_B=156224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=5136350675
+mem_heap_B=961576
+mem_heap_extra_B=161536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=5632145877
+mem_heap_B=1003640
+mem_heap_extra_B=169184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=6004185210
+mem_heap_B=1034000
+mem_heap_extra_B=174704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=6495943934
+mem_heap_B=1072720
+mem_heap_extra_B=181744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=6898590554
+mem_heap_B=1103344
+mem_heap_extra_B=187312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=7140253758
+mem_heap_B=1121296
+mem_heap_extra_B=190576
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1121296 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1047552 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 1047464 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 1047376 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 1047288 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 1047200 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 1047112 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 1047024 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 1046936 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 1046848 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 1046760 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 1046672 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 1046584 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 1046496 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 1046408 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 1046320 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 1046232 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 1046144 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 1046056 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 1045968 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 1045880 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 1045792 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 1045704 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 1045616 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 1045528 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 1045440 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 1045352 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 1045264 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 1045176 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 1045088 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 1045000 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=7542447502
+mem_heap_B=1150512
+mem_heap_extra_B=195888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=7783813119
+mem_heap_B=1167672
+mem_heap_extra_B=199008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=8185582553
+mem_heap_B=1195656
+mem_heap_extra_B=204096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=8508539039
+mem_heap_B=1217656
+mem_heap_extra_B=208096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=8750228601
+mem_heap_B=1233848
+mem_heap_extra_B=211040
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1233848 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1160104 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 1160016 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 1159928 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 1159840 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 1159752 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 1159664 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 1159576 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 1159488 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 1159400 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 1159312 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 1159224 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 1159136 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 1159048 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 1158960 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 1158872 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 1158784 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 1158696 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 1158608 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 1158520 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 1158432 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 1158344 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 1158256 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 1158168 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 1158080 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 1157992 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 1157904 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 1157816 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 1157728 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 1157640 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 1157552 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=9073257709
+mem_heap_B=1255144
+mem_heap_extra_B=214912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=9476330679
+mem_heap_B=1281192
+mem_heap_extra_B=219648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=9798376595
+mem_heap_B=1301608
+mem_heap_extra_B=223360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=10040608701
+mem_heap_B=1316744
+mem_heap_extra_B=226112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=10363387931
+mem_heap_B=1336632
+mem_heap_extra_B=229728
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1336632 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1262888 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 1262800 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 1262712 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 1262624 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 1262536 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 1262448 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 1262360 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 1262272 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 1262184 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 1262096 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 1262008 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 1261920 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 1261832 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 1261744 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 1261656 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 1261568 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 1261480 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 1261392 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 1261304 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 1261216 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 1261128 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 1261040 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 1260952 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 1260864 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 1260776 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 1260688 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 1260600 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 1260512 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 1260424 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 1260336 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=10861555389
+mem_heap_B=1366728
+mem_heap_extra_B=235200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=11359359143
+mem_heap_B=1396120
+mem_heap_extra_B=240544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=11733137597
+mem_heap_B=1417768
+mem_heap_extra_B=244480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=11982589253
+mem_heap_B=1432024
+mem_heap_extra_B=247072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=12231538551
+mem_heap_B=1446104
+mem_heap_extra_B=249632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=12604997492
+mem_heap_B=1466960
+mem_heap_extra_B=253424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=12979239802
+mem_heap_B=1487552
+mem_heap_extra_B=257168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=13228523210
+mem_heap_B=1501104
+mem_heap_extra_B=259632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=13601947298
+mem_heap_B=1521168
+mem_heap_extra_B=263280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=13975555227
+mem_heap_B=1540968
+mem_heap_extra_B=266880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=14224064775
+mem_heap_B=1553992
+mem_heap_extra_B=269248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=14597522483
+mem_heap_B=1573352
+mem_heap_extra_B=272768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=14848034591
+mem_heap_B=1586200
+mem_heap_extra_B=275104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=15097201575
+mem_heap_B=1598872
+mem_heap_extra_B=277408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=15471320957
+mem_heap_B=1617704
+mem_heap_extra_B=280832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=15844682036
+mem_heap_B=1636272
+mem_heap_extra_B=284208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=16094865788
+mem_heap_B=1648592
+mem_heap_extra_B=286448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=16343394388
+mem_heap_B=1660736
+mem_heap_extra_B=288656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=16593826966
+mem_heap_B=1672880
+mem_heap_extra_B=290864
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1672880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1599136 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 1599048 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 1598960 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 1598872 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 1598784 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 1598696 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 1598608 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 1598520 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 1598432 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 1598344 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 1598256 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 1598168 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 1598080 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 1597992 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 1597904 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 1597816 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 1597728 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 1597640 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 1597552 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 1597464 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 1597376 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 1597288 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 1597200 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 1597112 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 1597024 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 1596936 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 1596848 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 1596760 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 1596672 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 1596584 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=16796644429
+mem_heap_B=1682648
+mem_heap_extra_B=292640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=16998849679
+mem_heap_B=1692328
+mem_heap_extra_B=294400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=17202266453
+mem_heap_B=1702008
+mem_heap_extra_B=296160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=17405024962
+mem_heap_B=1711600
+mem_heap_extra_B=297904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=17607097146
+mem_heap_B=1721104
+mem_heap_extra_B=299632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=17810334286
+mem_heap_B=1730608
+mem_heap_extra_B=301360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=18012839387
+mem_heap_B=1740024
+mem_heap_extra_B=303072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=18214582009
+mem_heap_B=1749352
+mem_heap_extra_B=304768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=18417447551
+mem_heap_B=1758680
+mem_heap_extra_B=306464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=18619507732
+mem_heap_B=1767920
+mem_heap_extra_B=308144
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1767920 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1694176 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 1694088 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 1694000 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 1693912 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 1693824 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 1693736 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 1693648 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 1693560 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 1693472 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 1693384 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 1693296 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 1693208 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 1693120 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 1693032 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 1692944 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 1692856 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 1692768 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 1692680 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 1692592 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 1692504 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 1692416 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 1692328 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 1692240 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 1692152 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 1692064 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 1691976 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 1691888 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 1691800 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 1691712 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 1691624 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1040 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=18822669253
+mem_heap_B=1777160
+mem_heap_extra_B=309824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=19024983313
+mem_heap_B=1786312
+mem_heap_extra_B=311488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=19228378737
+mem_heap_B=1795464
+mem_heap_extra_B=313152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=19430884842
+mem_heap_B=1804528
+mem_heap_extra_B=314800
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=19632470712
+mem_heap_B=1813504
+mem_heap_extra_B=316432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=19835097214
+mem_heap_B=1822480
+mem_heap_extra_B=318064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=20036762527
+mem_heap_B=1831368
+mem_heap_extra_B=319680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=20079051574
+mem_heap_B=1834368
+mem_heap_extra_B=320048
+mem_stacks_B=0
+heap_tree=peak
+n3: 1834368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1759472 0x408D15: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+  n2: 1759384 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+   n2: 1759296 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+    n2: 1759208 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+     n2: 1759120 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+      n2: 1759032 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+       n2: 1758944 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+        n2: 1758856 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+         n2: 1758768 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+          n2: 1758680 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+           n2: 1758592 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+            n2: 1758504 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+             n2: 1758416 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+              n2: 1758328 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+               n2: 1758240 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                n2: 1758152 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                 n2: 1758064 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                  n2: 1757976 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                   n2: 1757888 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                    n2: 1757800 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                     n2: 1757712 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                      n2: 1757624 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                       n2: 1757536 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                        n2: 1757448 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                         n2: 1757360 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                          n2: 1757272 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                           n2: 1757184 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                            n2: 1757096 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                             n2: 1757008 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 1756920 0x408C0B: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O3.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+        n0: 88 in 1 place, below massif's threshold (1.00%)
+       n0: 88 in 1 place, below massif's threshold (1.00%)
+      n0: 88 in 1 place, below massif's threshold (1.00%)
+     n0: 88 in 1 place, below massif's threshold (1.00%)
+    n0: 88 in 1 place, below massif's threshold (1.00%)
+   n0: 88 in 1 place, below massif's threshold (1.00%)
+  n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 2192 in 7 places, all below massif's threshold (1.00%)

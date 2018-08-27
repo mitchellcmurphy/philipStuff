@@ -1,0 +1,1001 @@
+desc: (none)
+cmd: ./bst_O0.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2113416
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2243346
+mem_heap_B=73216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2249909
+mem_heap_B=73304
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2281221
+mem_heap_B=73392
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2289992
+mem_heap_B=73480
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=2294804
+mem_heap_B=73568
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2299818
+mem_heap_B=73656
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2305034
+mem_heap_B=73744
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2310452
+mem_heap_B=73832
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=detailed
+n2: 73832 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n0: 1128 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=10
+#-----------
+time=2316072
+mem_heap_B=73920
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2321894
+mem_heap_B=74008
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2327918
+mem_heap_B=74096
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2333344
+mem_heap_B=74184
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2339660
+mem_heap_B=74272
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2346218
+mem_heap_B=74360
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2352978
+mem_heap_B=74448
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2359940
+mem_heap_B=74536
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2367104
+mem_heap_B=74624
+mem_heap_extra_B=272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2374470
+mem_heap_B=74712
+mem_heap_extra_B=288
+mem_stacks_B=0
+heap_tree=detailed
+n3: 74712 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 1496 0x40506C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+  n1: 1496 0x404EA3: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+   n1: 1496 0x404C80: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+    n1: 1496 0x404A6B: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, BST::Node*, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+     n1: 1496 0x4049A8: std::__shared_ptr<BST::Node, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+      n1: 1496 0x4048EC: std::shared_ptr<BST::Node>::shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+       n1: 1496 0x404848: std::shared_ptr<BST::Node> std::allocate_shared<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+        n2: 1496 0x4046D2: std::shared_ptr<BST::Node> std::make_shared<BST::Node, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+         n2: 1408 0x4045B7: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+          n2: 1320 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+           n2: 1232 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+            n2: 1144 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+             n2: 1056 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+              n2: 968 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+               n2: 880 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                n1: 792 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                 n0: 792 in 2 places, all below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+ n0: 512 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=2382038
+mem_heap_B=74800
+mem_heap_extra_B=304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2389808
+mem_heap_B=74888
+mem_heap_extra_B=320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2397780
+mem_heap_B=74976
+mem_heap_extra_B=336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2404558
+mem_heap_B=75064
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2412822
+mem_heap_B=75152
+mem_heap_extra_B=368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2421328
+mem_heap_B=75240
+mem_heap_extra_B=384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2430036
+mem_heap_B=75328
+mem_heap_extra_B=400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2438946
+mem_heap_B=75416
+mem_heap_extra_B=416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2448058
+mem_heap_B=75504
+mem_heap_extra_B=432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2457372
+mem_heap_B=75592
+mem_heap_extra_B=448
+mem_stacks_B=0
+heap_tree=detailed
+n3: 75592 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 2376 0x40506C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+  n1: 2376 0x404EA3: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+   n1: 2376 0x404C80: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+    n1: 2376 0x404A6B: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, BST::Node*, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+     n1: 2376 0x4049A8: std::__shared_ptr<BST::Node, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+      n1: 2376 0x4048EC: std::shared_ptr<BST::Node>::shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+       n1: 2376 0x404848: std::shared_ptr<BST::Node> std::allocate_shared<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+        n2: 2376 0x4046D2: std::shared_ptr<BST::Node> std::make_shared<BST::Node, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+         n2: 2288 0x4045B7: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+          n2: 2200 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+           n2: 2112 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+            n2: 2024 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+             n2: 1936 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+              n2: 1848 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+               n2: 1760 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                n2: 1672 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                 n2: 1584 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                  n2: 1496 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                   n2: 1408 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                    n2: 1320 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                     n2: 1232 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                      n2: 1144 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                       n2: 1056 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                        n2: 968 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                         n2: 880 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                          n1: 792 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                           n0: 792 in 2 places, all below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+ n0: 512 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=2466888
+mem_heap_B=75680
+mem_heap_extra_B=464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2476606
+mem_heap_B=75768
+mem_heap_extra_B=480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2486526
+mem_heap_B=75856
+mem_heap_extra_B=496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2494656
+mem_heap_B=75944
+mem_heap_extra_B=512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2506051
+mem_heap_B=76032
+mem_heap_extra_B=528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2509901
+mem_heap_B=76096
+mem_heap_extra_B=536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2510058
+mem_heap_B=76608
+mem_heap_extra_B=544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2510583
+mem_heap_B=76672
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2510740
+mem_heap_B=77184
+mem_heap_extra_B=560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2512630
+mem_heap_B=77184
+mem_heap_extra_B=560
+mem_stacks_B=0
+heap_tree=peak
+n4: 77184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 2816 0x40506C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+  n1: 2816 0x404EA3: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+   n1: 2816 0x404C80: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+    n1: 2816 0x404A6B: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, BST::Node*, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+     n1: 2816 0x4049A8: std::__shared_ptr<BST::Node, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+      n1: 2816 0x4048EC: std::shared_ptr<BST::Node>::shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+       n1: 2816 0x404848: std::shared_ptr<BST::Node> std::allocate_shared<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+        n2: 2816 0x4046D2: std::shared_ptr<BST::Node> std::make_shared<BST::Node, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+         n2: 2728 0x4045B7: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+          n2: 2640 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+           n2: 2552 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+            n2: 2464 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+             n2: 2376 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+              n2: 2288 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+               n2: 2200 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                n2: 2112 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                 n2: 2024 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                  n2: 1936 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                   n2: 1848 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                    n2: 1760 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                     n2: 1672 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                      n2: 1584 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                       n2: 1496 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                        n2: 1408 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                         n2: 1320 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                          n2: 1232 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                           n2: 1144 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                            n2: 1056 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                             n2: 968 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                              n0: 880 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x403CB8: __gnu_cxx::new_allocator<std::shared_ptr<BST::Node> >::allocate(unsigned long, void const*) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+  n1: 1024 0x403B23: std::allocator_traits<std::allocator<std::shared_ptr<BST::Node> > >::allocate(std::allocator<std::shared_ptr<BST::Node> >&, unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+   n1: 1024 0x4035EE: std::_Deque_base<std::shared_ptr<BST::Node>, std::allocator<std::shared_ptr<BST::Node> > >::_M_allocate_node() (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+    n1: 1024 0x403453: std::_Deque_base<std::shared_ptr<BST::Node>, std::allocator<std::shared_ptr<BST::Node> > >::_M_create_nodes(std::shared_ptr<BST::Node>**, std::shared_ptr<BST::Node>**) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+     n1: 1024 0x402DD9: std::_Deque_base<std::shared_ptr<BST::Node>, std::allocator<std::shared_ptr<BST::Node> > >::_M_initialize_map(unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+      n0: 1024 in 2 places, all below massif's threshold (1.00%)
+ n0: 640 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=2512630
+mem_heap_B=76672
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2512761
+mem_heap_B=76608
+mem_heap_extra_B=544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2514344
+mem_heap_B=76672
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2514501
+mem_heap_B=77184
+mem_heap_extra_B=560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2515026
+mem_heap_B=77248
+mem_heap_extra_B=568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2515183
+mem_heap_B=77760
+mem_heap_extra_B=576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2516059
+mem_heap_B=77248
+mem_heap_extra_B=568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2516190
+mem_heap_B=77184
+mem_heap_extra_B=560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2520356
+mem_heap_B=77696
+mem_heap_extra_B=568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=2607163
+mem_heap_B=77184
+mem_heap_extra_B=560
+mem_stacks_B=0
+heap_tree=detailed
+n4: 77184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 2816 0x40506C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+  n1: 2816 0x404EA3: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+   n1: 2816 0x404C80: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+    n1: 2816 0x404A6B: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, BST::Node*, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+     n1: 2816 0x4049A8: std::__shared_ptr<BST::Node, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+      n1: 2816 0x4048EC: std::shared_ptr<BST::Node>::shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+       n1: 2816 0x404848: std::shared_ptr<BST::Node> std::allocate_shared<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+        n2: 2816 0x4046D2: std::shared_ptr<BST::Node> std::make_shared<BST::Node, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+         n2: 2728 0x4045B7: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+          n2: 2640 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+           n2: 2552 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+            n2: 2464 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+             n2: 2376 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+              n2: 2288 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+               n2: 2200 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                n2: 2112 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                 n2: 2024 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                  n2: 1936 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                   n2: 1848 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                    n2: 1760 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                     n2: 1672 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                      n2: 1584 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                       n2: 1496 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                        n2: 1408 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                         n2: 1320 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                          n2: 1232 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                           n2: 1144 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                            n2: 1056 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                             n2: 968 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                              n0: 880 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                              n0: 88 in 1 place, below massif's threshold (1.00%)
+                             n0: 88 in 1 place, below massif's threshold (1.00%)
+                            n0: 88 in 1 place, below massif's threshold (1.00%)
+                           n0: 88 in 1 place, below massif's threshold (1.00%)
+                          n0: 88 in 1 place, below massif's threshold (1.00%)
+                         n0: 88 in 1 place, below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 1024 0x5444592: _IO_doallocbuf (genops.c:398)
+   n0: 1024 in 2 places, all below massif's threshold (1.00%)
+ n0: 640 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=2607294
+mem_heap_B=77120
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2607801
+mem_heap_B=76608
+mem_heap_extra_B=544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2607932
+mem_heap_B=76544
+mem_heap_extra_B=536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2613859
+mem_heap_B=76456
+mem_heap_extra_B=520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2614226
+mem_heap_B=76368
+mem_heap_extra_B=504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=2614593
+mem_heap_B=76280
+mem_heap_extra_B=488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2614960
+mem_heap_B=76192
+mem_heap_extra_B=472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=2615327
+mem_heap_B=76104
+mem_heap_extra_B=456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2615694
+mem_heap_B=76016
+mem_heap_extra_B=440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2616061
+mem_heap_B=75928
+mem_heap_extra_B=424
+mem_stacks_B=0
+heap_tree=detailed
+n4: 75928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 2200 0x40506C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+  n1: 2200 0x404EA3: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+   n1: 2200 0x404C80: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+    n1: 2200 0x404A6B: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, BST::Node*, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+     n1: 2200 0x4049A8: std::__shared_ptr<BST::Node, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+      n1: 2200 0x4048EC: std::shared_ptr<BST::Node>::shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+       n1: 2200 0x404848: std::shared_ptr<BST::Node> std::allocate_shared<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+        n2: 2200 0x4046D2: std::shared_ptr<BST::Node> std::make_shared<BST::Node, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+         n2: 2112 0x4045B7: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+          n2: 2024 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+           n2: 1936 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+            n2: 1848 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+             n2: 1760 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+              n2: 1672 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+               n2: 1584 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                n2: 1496 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                 n2: 1408 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                  n2: 1320 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                   n2: 1232 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                    n2: 1144 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                     n2: 1056 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                      n2: 968 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                       n2: 880 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                        n1: 792 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+                         n0: 792 in 2 places, all below massif's threshold (1.00%)
+                        n0: 88 in 1 place, below massif's threshold (1.00%)
+                       n0: 88 in 1 place, below massif's threshold (1.00%)
+                      n0: 88 in 1 place, below massif's threshold (1.00%)
+                     n0: 88 in 1 place, below massif's threshold (1.00%)
+                    n0: 88 in 1 place, below massif's threshold (1.00%)
+                   n0: 88 in 1 place, below massif's threshold (1.00%)
+                  n0: 88 in 1 place, below massif's threshold (1.00%)
+                 n0: 88 in 1 place, below massif's threshold (1.00%)
+                n0: 88 in 1 place, below massif's threshold (1.00%)
+               n0: 88 in 1 place, below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 1024 0x5444592: _IO_doallocbuf (genops.c:398)
+   n0: 1024 in 2 places, all below massif's threshold (1.00%)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=2616428
+mem_heap_B=75840
+mem_heap_extra_B=408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=2616795
+mem_heap_B=75752
+mem_heap_extra_B=392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=2617162
+mem_heap_B=75664
+mem_heap_extra_B=376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2617529
+mem_heap_B=75576
+mem_heap_extra_B=360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=2617896
+mem_heap_B=75488
+mem_heap_extra_B=344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=2618263
+mem_heap_B=75400
+mem_heap_extra_B=328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=2618630
+mem_heap_B=75312
+mem_heap_extra_B=312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=2618997
+mem_heap_B=75224
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=2619364
+mem_heap_B=75136
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=2619731
+mem_heap_B=75048
+mem_heap_extra_B=264
+mem_stacks_B=0
+heap_tree=detailed
+n4: 75048 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 1320 0x40506C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+  n1: 1320 0x404EA3: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+   n1: 1320 0x404C80: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<BST::Node, std::allocator<BST::Node>, (__gnu_cxx::_Lock_policy)2> >&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+    n1: 1320 0x404A6B: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, BST::Node*, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+     n1: 1320 0x4049A8: std::__shared_ptr<BST::Node, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+      n1: 1320 0x4048EC: std::shared_ptr<BST::Node>::shared_ptr<std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::_Sp_make_shared_tag, std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+       n1: 1320 0x404848: std::shared_ptr<BST::Node> std::allocate_shared<BST::Node, std::allocator<BST::Node>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::allocator<BST::Node> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+        n2: 1320 0x4046D2: std::shared_ptr<BST::Node> std::make_shared<BST::Node, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+         n2: 1232 0x4045B7: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+          n2: 1144 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+           n2: 1056 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+            n2: 968 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+             n2: 880 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+              n1: 792 0x404612: BST::Node::lookup(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /mnt/c/Users/pkerts/source/repos/philipStuff/ass1/ass1/ass1/bst_O0.out)
+               n0: 792 in 2 places, all below massif's threshold (1.00%)
+              n0: 88 in 1 place, below massif's threshold (1.00%)
+             n0: 88 in 1 place, below massif's threshold (1.00%)
+            n0: 88 in 1 place, below massif's threshold (1.00%)
+           n0: 88 in 1 place, below massif's threshold (1.00%)
+          n0: 88 in 1 place, below massif's threshold (1.00%)
+         n0: 88 in 1 place, below massif's threshold (1.00%)
+ n1: 1024 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 1024 0x5444592: _IO_doallocbuf (genops.c:398)
+   n0: 1024 in 2 places, all below massif's threshold (1.00%)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=70
+#-----------
+time=2620098
+mem_heap_B=74960
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=2620465
+mem_heap_B=74872
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=2620832
+mem_heap_B=74784
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=2621199
+mem_heap_B=74696
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=2621566
+mem_heap_B=74608
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=2621933
+mem_heap_B=74520
+mem_heap_extra_B=168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=2622300
+mem_heap_B=74432
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=2622667
+mem_heap_B=74344
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=2623034
+mem_heap_B=74256
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=2623401
+mem_heap_B=74168
+mem_heap_extra_B=104
+mem_stacks_B=0
+heap_tree=detailed
+n3: 74168 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 1024 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 1024 0x5444592: _IO_doallocbuf (genops.c:398)
+   n0: 1024 in 2 places, all below massif's threshold (1.00%)
+ n0: 440 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=80
+#-----------
+time=2623768
+mem_heap_B=74080
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=2624135
+mem_heap_B=73992
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=2624502
+mem_heap_B=73904
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=2624869
+mem_heap_B=73816
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=2625236
+mem_heap_B=73728
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=2633853
+mem_heap_B=73216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=2633885
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
